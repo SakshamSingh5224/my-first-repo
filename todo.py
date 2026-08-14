@@ -43,7 +43,7 @@ def list_tasks():
         print("\nNo tasks found. You're all caught up!")
         return
     
-    print("\n--- To-Do List ---")
+    print("\n🚀 My Awesome To-Do List 🚀")
     for index, task in enumerate(tasks, 1):
         status = "[x]" if task.get("done") else "[ ]"
         print(f"{index}. {status} {task['task']}")
